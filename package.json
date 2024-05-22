@@ -1,0 +1,60 @@
+{
+	"name": "manikineko-bot",
+	"description": "",
+	"version": "1.0.0",
+	"type": "module",
+	"private": true,
+	"keywords": [
+		"ai",
+		"bot",
+		"discord",
+		"discord.js",
+		"gpt",
+		"moderation",
+		"moderator",
+		"openai",
+		"robo",
+		"robo.js",
+		"typescript"
+	],
+	"scripts": {
+		"build": "robox build",
+		"deploy": "robox deploy",
+		"dev": "robox dev",
+		"doctor": "sage doctor",
+		"invite": "robox invite",
+		"lint": "npm run lint:eslint && npm run lint:style",
+		"lint:eslint": "eslint . --ext js,jsx,ts,tsx",
+		"lint:style": "prettier --write .",
+		"start": "robox start",
+		"upgrade": "sage upgrade"
+	},
+	"dependencies": {
+		"@google-cloud/translate": "^8.2.0",
+		"@robojs/ai": "^0.5.3",
+		"@robojs/moderation": "^0.3.1",
+		"@robojs/server": "^0.4.5",
+		"@types/node-fetch": "^2.6.11",
+		"discord.js": "^14.15.2",
+		"extensionless": "^1.9.7",
+		"google-translate-api": "^2.3.0",
+		"node-fetch": "^3.3.2",
+		"openai": "^4.45.0",
+		"remove": "^0.1.5",
+		"robo": "file:../../../../../GitHub/robo.js",
+		"robo.js": "^0.10.8",
+		"translatte": "^3.0.1",
+		"web": "^0.0.2",
+		"webserver": "^5.0.1"
+	},
+	"devDependencies": {
+		"@swc/core": "^1.5.5",
+		"@types/google-translate-api": "^2.3.5",
+		"@types/node": "^20.12.11",
+		"@typescript-eslint/eslint-plugin": "^7.8.0",
+		"@typescript-eslint/parser": "^7.8.0",
+		"eslint": "^8.57.0",
+		"prettier": "^3.2.5",
+		"typescript": "^5.4.5"
+	}
+}
